@@ -1,0 +1,72 @@
+.checkout-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    padding: 5px;
+    border: 1px solid #bebcbc;
+    border-radius: 10px;
+    line-height: 20px;
+  }
+
+  input:focus-visible, select:focus-visible{
+    outline: #bebcbc auto 1px;
+  }
+  
+  .placeOrder {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #5b5b5b;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+    font-weight: 600;
+    transition: background-color 0.5s ease, color 0.5s ease;
+
+  }
+  
+  .placeOrder:hover {
+    background-color: #c8c8c8;
+    color: #000;
+  }
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;  /* Change 'white' to your desired color */
+    box-shadow: 0 0 0px 1000px white inset;          /* Change 'white' to your desired color */
+    -webkit-text-fill-color: #000;                   /* Set text color */
+  }
+  @media screen and (max-width: 420px) {
+    .placeOrder{
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    label{
+      font-size: 14px;
+    } 
+  }

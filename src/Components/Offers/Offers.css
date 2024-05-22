@@ -1,0 +1,163 @@
+.offers{
+    /* width: 85%; */
+    /* height: 60vh; */
+    display: flex;
+    /* margin: auto; */
+    /* padding: 0px 140px; */
+    /* margin-bottom: 150px; */
+    background: linear-gradient(180deg, #b6b6b6 0%, #e1ffea22 60%);
+    border-radius: 15px;
+    margin: 100px auto;
+    justify-content: center;
+}
+
+.offers-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers-left h1{
+    color: #171717;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.offers-left p{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.offers-left button{
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background: #5b5b5b;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.offers-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 991px) {
+    .offers-left h1{
+        font-size: 50px;
+    }
+    .offers-left h1 , .offers-left p {
+        padding: 0 50px;
+    }
+    .offers-left button{
+        width: 60%;
+        margin-left: 40px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .offers-left h1{
+        font-size: 30px;
+    }
+    .offers-left h1 , .offers-left p {
+        padding: 0 50px;
+    }
+    .offers-right img{
+        width: 285px;
+    }
+    .offers-right{
+        padding-top: 0;
+    }
+    .offers-left button{
+        width: 50%;
+        margin-left: 40px;
+        font-size: 17px;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    .offers-left h1{
+        font-size: 25px;
+        line-height: 1;
+    }
+    .offers-left h1 , .offers-left p {
+        padding: 0 50px;
+        
+    }
+    .offers-left p {
+     
+        font-size: 18px;
+    }
+    .offers-right img{
+        width: 225px;
+    }
+    .offers-right{
+        padding-top: 0;
+    }
+    .offers-left button{
+        width: 50%;
+        margin-left: 40px;
+        font-size: 17px;
+    }
+  }
+
+  @media screen and (max-width: 476px) {
+    .offers-left h1{
+        font-size: 25px;
+        line-height: 1;
+    }
+    .offers-left h1 , .offers-left p {
+        padding: 0 30px;
+        
+    }
+    .offers-left p {
+     
+        font-size: 14px;
+    }
+    .offers-right img{
+        width: 200px;
+    }
+    .offers-right{
+        padding-top: 0;
+    }
+    .offers-left button{
+        width: 60%;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 370px) {
+    .offers-left h1{
+        font-size: 20px;
+        line-height: 1;
+    }
+    .offers-left h1 , .offers-left p {
+        padding: 0 20px;
+        
+    }
+    .offers-left p {
+     
+        font-size: 14px;
+    }
+    .offers-right img{
+        width: 180px;
+    }
+    .offers-right{
+        padding-top: 0;
+    }
+    .offers-left button{
+        width: 68%;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+  }

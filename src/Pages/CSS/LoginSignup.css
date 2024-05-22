@@ -1,0 +1,112 @@
+.loginsignup{
+    width: 100%;
+    /* height: 80vh; */
+    background: #dfdfdf;
+    padding: 50px 0;
+}
+
+.loginsignup-container{
+    width: 30%;
+    /* height: 600px; */
+    background: white;
+    margin: auto;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+.loginsignup-container h1{
+    margin: 0px 0px;
+    font-size: 30px;
+}
+
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.loginsignup-fields input{
+    /* height: 52px; */
+    padding: 5px 20px;
+    width: 90%;
+   border-radius: 10px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.loginsignup-container button{
+    width: 40%;
+    /* height: 72px; */
+    color: white;
+    padding: 5px 0;
+    background-color: #5b5b5b;
+    margin-top: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: #010101;
+    font-weight: 600;
+    margin: 0 10px;
+    text-decoration: underline;
+}
+
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+    column-rule: #5c5c5c;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.loginsignup-agree p{
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1086px) {
+    .loginsignup-container{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 814px) {
+    .loginsignup-container{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 651px) {
+    .loginsignup-container{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 501px) {
+    .loginsignup-container{
+        width: 75%;
+    }
+    .loginsignup-agree p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 394px) {
+    .loginsignup-container{
+        width: 85%;
+    }
+    .loginsignup-agree p{
+        font-size: 13px;
+    }
+    .loginsignup-container button{
+        font-size: 16px;
+    }
+}
