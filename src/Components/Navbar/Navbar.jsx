@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './Navbar.css'
-import logo from '../Assets/logo.png'
+
+import logo from '../Assets/shopping_bag.png'
 import cart_icon from '../Assets/cart_icon.png'
 import { Link,  useLocation  } from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
