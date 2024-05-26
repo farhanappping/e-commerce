@@ -11,7 +11,7 @@ const Navbar = () => {
   const location = useLocation();
   const [showMenu, setShowMenu] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
-  const {getTotalCartItems} = useContext(ShopContext)
+  const {user, getTotalCartItems} = useContext(ShopContext)
 
   useEffect(() => {
     const handleResize = () => {
@@ -52,8 +52,13 @@ const Navbar = () => {
       
 
         <div className="nav-login-cart">
-          <Link to='/login'><button>Login</button></Link>
-          <Link to='/cart'><img className='cartimg' src={cart_icon} alt="" /></Link>
+         {user ? (
+            <div className="nav-username">{user.username}</div>
+          ) : (
+            <Link to='/login'><button>Login</button></Link>
+          )}
+          <Link to='/cart'><img className='cartimg' src={cart_icon} alt="Cart" /></Link>
+          
           {/* Render cart count */}
           <div className="nav-cart-count">{getTotalCartItems()}</div>
         </div>

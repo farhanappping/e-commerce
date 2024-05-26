@@ -61,6 +61,7 @@
     font-weight: 600;
     margin: 0 10px;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .loginsignup-agree{
@@ -75,6 +76,11 @@
 }
 .loginsignup-agree p{
     margin-bottom: 0;
+}
+.success-message{
+    text-align: center;
+    font-family: inherit;
+    font-weight: 600;
 }
 @media screen and (max-width: 1086px) {
     .loginsignup-container{

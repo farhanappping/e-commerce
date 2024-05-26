@@ -5,7 +5,11 @@
     box-shadow: 0 1px 3px -2px black;
     position: relative;
 }
-
+.nav-username{
+  font-weight: 600;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
 .nav-logo{
     display: flex;
     align-items: center;

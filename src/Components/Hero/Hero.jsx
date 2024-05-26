@@ -16,11 +16,11 @@ const Hero = () => {
         <h2>NEW ARRIVALS ONLY</h2>
         <div>
             <div className="hero-hand-icon">
-                <p>new</p>
+                <p>New</p>
                 <img src={hand_icon} alt="" />
             </div>
             <p>Collection</p>
-            <p>for everyone</p>
+            <p>For everyone</p>
         </div>
         <a href="#newCollection" style={{textDecoration:'none'}}>
         <button className="col-lg-6 col-md-10 col-11 hero-latest-btn">
