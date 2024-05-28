@@ -97,6 +97,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: background 0.1s ease, transform 1s ease;
 }
 .productdisplay-right-category{
     margin-top: 10px;
@@ -104,6 +105,12 @@
 
 .productdisplay-right-category span{
     font-weight: 600;
+}
+
+.addtocart:active{
+transform: scale(0.8);
+background: #868686;
+
 }
 @media screen and (max-width: 1200px) {
     .productdisplay-right-size div{

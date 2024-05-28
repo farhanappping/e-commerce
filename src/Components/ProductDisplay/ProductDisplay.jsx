@@ -50,7 +50,7 @@ const ProductDisplay = (props) => {
                 <div>XXL</div>
             </div>
         </div>
-        <button onClick={(event) => { event.preventDefault(); addToCart(product.id); }}>Add to cart</button>
+        <button className='addtocart' onClick={(event) => { event.preventDefault(); addToCart(product.id); }}>Add to cart</button>
 
         <p className='productdisplay-right-category'><span>Category : </span>Woman, T-Shirt, Crop-Top</p>
         <p className='productdisplay-right-category'><span>Tags : </span>Modern, Latest</p>
